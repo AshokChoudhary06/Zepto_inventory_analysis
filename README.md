@@ -36,8 +36,11 @@ The dataset contains **product-level inventory data** across 7 categories includ
 ## Task 
 
 The goal was to go further then just normal sql quering and finding insights and answer the 3 main business questions using **SQL and Inferential Statistics.**
-1. **Availability Problem** - Which products and categories are going out of stock, and what drives stockouts — is it pricing or discounting?
+1. **Availability Problem** - Which products and categories are going out of stock, and what drives stockouts is it pricing or discounting?
 2. **Pricing & Discount Problem** - Are discounts applied strategically across categories, or is there no clear pattern?
 3. **Revenue Problem** - Which categories generate the most estimated revenue, and which are underperforming?
 
+The key challenge was to prove whether the observed patterns where statistically correct or just random noise.
+
+## Action 
 
