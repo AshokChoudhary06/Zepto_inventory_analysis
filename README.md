@@ -12,6 +12,13 @@
 ```
 zepto-inventory-analysis/
 |
+|---Notebook/
+      |--zepto_inventory_analysis.ipynb #Inferential Stats in python
+|---SQL_file/
+      |--sql_project_1.sql  #Sql queries with business insights
 |---data/
-      |--zepto_1.csv
-|---
+      |--zepto_1.csv  # raw data 
+|---readme.md/
+
+```
+---
