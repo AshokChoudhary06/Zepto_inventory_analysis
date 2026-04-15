@@ -13,3 +13,5 @@
 zepto-inventory-analysis/
 |
 |---data/
+      |--zepto_1.csv
+|---
