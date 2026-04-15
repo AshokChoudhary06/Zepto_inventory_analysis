@@ -19,6 +19,15 @@ zepto-inventory-analysis/
 |---data/
       |--zepto_1.csv  # raw data 
 |---readme.md/
-
+|
 ```
+---
+
+## Project Overview 
+
+### Situation 
+
+Zepto is a quick-commerce platform that promises 10-minute grocery delivery across India. In this business model, **inventory management is everything** - a product going out of stock means instant revenue loss, and incorrect pricing or unplanned discounting directly eats into margins.
+The dataset contains **product-level inventory data** across 7 categories including Fruits & Vegetables, Dairy, Beverages, Munchies, Packaged Food, Cooking Essentials, and Bread & Batter - with columns like MRP, discountPercent, available quantity, weight, selling price, and out-of-stock status.
+ 
 ---
