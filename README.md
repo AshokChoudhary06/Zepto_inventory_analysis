@@ -91,5 +91,5 @@ Category-wise revenue analysis revealed that certain categories doesn't not cont
 
 ## Author 
 **Ashok**
-Data Science Trainer , Analyst 
-Mumbai, India  
+- Data Science Trainer , Analyst 
+- Mumbai, India  
