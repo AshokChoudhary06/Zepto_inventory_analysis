@@ -47,3 +47,13 @@ The key challenge was to prove whether the observed patterns where statistically
 ### SQL Analysis 
 |#| Query | Business Purpose |
 |---|---|---|
+|Q1|Top 10 products by discount %|Low selling Produtcs or might be Loss Leaders Products|
+|Q2|High MRP products that are OOS (Out of Stock)|Priority for restocking the higher mrp products as they might be high marginal products |
+|Q3|Estimated revenue for each category| Guide marketing campaigns |
+|Q4|High MRP and low margin products | Identify overpriced, low-offer risk products |
+|Q5|Top categories by avg discount percentage | Evaluate discount strategy per category |
+|Q6|Price per gram for products > 100g | Find best value-for-money products |
+|Q7|Weight-based product classification | Help store managers sort inventory efficiently | 
+|Q8|Total inventory weight per category | Warehouse space planning |
+|Q9|Top 3 discounted products per category | Identify brand-level discount leaders (Window Function)|
+|Q10|Revenue ranking per category |Category-level performance benchmarking (Window Function)|
