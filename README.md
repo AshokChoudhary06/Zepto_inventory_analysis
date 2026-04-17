@@ -70,8 +70,8 @@ The key challenge was to prove whether the observed patterns where statistically
 |t-statistics| -4.4727|
 |p-value| 8.24*10^-6 which is 0.0000|
 
-** Rejected the null hypothesis** 
----
+**Rejected the null hypothesis** 
+
 **Test 2: Point-Biseiral Correlation: Discount % vs Out os stock status**
 
 | Metric | Value |
@@ -80,7 +80,6 @@ The key challenge was to prove whether the observed patterns where statistically
 | P-Value | 0.0020 |
 
 **Significant but weak negative correlation**
----
 
 ## Results or Findings
 **Finding1-Mrp drives stockout more then the discounts:** Low-to-mid priced products(avg ₹90) go out of stock significantly more than premium products(avg ₹151).This suggests higher demand for affordable products a clear restocking priority signal for Zepto's purchasing team.
