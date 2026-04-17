@@ -44,3 +44,6 @@ The key challenge was to prove whether the observed patterns where statistically
 
 ## Action 
 
+### SQL Analysis 
+|#| Query | Business Purpose |
+|---|---|---|
