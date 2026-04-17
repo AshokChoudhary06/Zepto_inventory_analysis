@@ -57,3 +57,40 @@ The key challenge was to prove whether the observed patterns where statistically
 |Q8|Total inventory weight per category | Warehouse space planning |
 |Q9|Top 3 discounted products per category | Identify brand-level discount leaders (Window Function)|
 |Q10|Revenue ranking per category |Category-level performance benchmarking (Window Function)|
+
+### Inferential Analysis
+**Test1 : Independent T-Test - MRP vs Out of stock status**
+**H0 : Mean MRP is the same for Out of stock and in stock products.** 
+**Tools : Scipy.stats.ttest_ind** 
+
+| Metric | Value |
+|--|--|
+|in-stock mean mrp | 151.26|
+|out_of_stock mean mrp| 98.78|
+|t-statistics| -4.4727|
+|p-value| 8.24*10^-6 which is 0.0000|
+
+** Rejected the null hypothesis** 
+---
+**Test 2: Point-Biseiral Correlation: Discount % vs Out os stock status**
+
+| Metric | Value |
+|---|---|
+| Correlation Coefficient | -0.0757 |
+| P-Value | 0.0020 |
+
+**Significant but weak negative correlation**
+---
+
+## Results or Findings
+**Finding1-Mrp drives stockout more then the discounts:** Low-to-mid priced products(avg ₹90) go out of stock significantly more than premium products(avg ₹151).This suggests higher demand for affordable products a clear restocking priority signal for Zepto's purchasing team.
+
+**Findings2- Discount percent is not reliable for stock out products:** negative correlation exists between discount % and OOS status (r = -0.07, p < 0.05), the effect size is too weak to conclude that discounting directly controls stockout behavior. Pricing and supply chain factors could be stronger to define it.
+
+**Finding 3 — Revenue concentration:**
+Category-wise revenue analysis revealed that certain categories doesn't not contribute to estimated revenue as much as certain categories - useful for the marketing team to prioritize ad spend and promotions.
+
+## Author 
+**Ashok**
+Data Science Trainer , Analyst 
+Mumbai, India  
